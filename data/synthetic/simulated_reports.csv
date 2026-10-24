@@ -1,0 +1,10 @@
+id,category,lat,lng,description,status,source,simulated,reported_at,verified_at
+sim-ffb14861-0,visibility,51.499981,-0.09568,Simulated demo report,verified,simulated,true,2026-09-14T00:00:00+00:00,2026-09-23T00:00:00+00:00
+sim-ffb14861-1,streetlight,51.500056,-0.092457,Simulated demo report,verified,simulated,true,2026-06-08T00:00:00+00:00,2026-08-05T00:00:00+00:00
+sim-ffb14861-2,obstruction,51.499943,-0.092811,Simulated demo report,verified,simulated,true,2026-09-09T00:00:00+00:00,2026-09-20T00:00:00+00:00
+sim-ffb14861-3,poor_lighting,51.49995,-0.092842,Simulated demo report,verified,simulated,true,2026-07-11T00:00:00+00:00,2026-08-21T00:00:00+00:00
+sim-ffb14861-4,poor_lighting,51.499952,-0.091281,Simulated demo report,verified,simulated,true,2026-05-13T00:00:00+00:00,2026-07-23T00:00:00+00:00
+sim-ffb14861-5,obstruction,51.499978,-0.095478,Simulated demo report,verified,simulated,true,2026-07-12T00:00:00+00:00,2026-08-22T00:00:00+00:00
+sim-ffb15405-0,visibility,51.501993,-0.093387,Simulated demo report,unverified,simulated,true,2026-08-06T00:00:00+00:00,
+sim-ffb15405-1,visibility,51.50204,-0.091241,Simulated demo report,unverified,simulated,true,2026-08-13T00:00:00+00:00,
+sim-ffb15405-2,footpath,51.500762,-0.099363,Simulated demo report,unverified,simulated,true,2026-06-26T00:00:00+00:00,

@@ -1,0 +1,240 @@
+{
+ "version": 0.6,
+ "generator": "PathLens synthetic sample (NOT OpenStreetMap data)",
+ "osm3s": {
+  "copyright": "None. SYNTHETIC SAMPLE. Invented for demos and tests. Not real roads, not real OpenStreetMap data, not real reports."
+ },
+ "elements": [
+  {
+   "type": "node",
+   "id": -1,
+   "lat": 51.50006,
+   "lon": -0.100004,
+   "tags": {
+    "highway": "street_lamp",
+    "note": "synthetic sample"
+   }
+  },
+  {
+   "type": "node",
+   "id": -2,
+   "lat": 51.50006,
+   "lon": -0.098495,
+   "tags": {
+    "highway": "street_lamp",
+    "note": "synthetic sample"
+   }
+  },
+  {
+   "type": "node",
+   "id": -3,
+   "lat": 51.50006,
+   "lon": -0.096966,
+   "tags": {
+    "highway": "street_lamp",
+    "note": "synthetic sample"
+   }
+  },
+  {
+   "type": "node",
+   "id": -4,
+   "lat": 51.50006,
+   "lon": -0.095503,
+   "tags": {
+    "highway": "street_lamp",
+    "note": "synthetic sample"
+   }
+  },
+  {
+   "type": "node",
+   "id": -5,
+   "lat": 51.50006,
+   "lon": -0.093999,
+   "tags": {
+    "highway": "street_lamp",
+    "note": "synthetic sample"
+   }
+  },
+  {
+   "type": "node",
+   "id": -6,
+   "lat": 51.50006,
+   "lon": -0.092493,
+   "tags": {
+    "highway": "street_lamp",
+    "note": "synthetic sample"
+   }
+  },
+  {
+   "type": "node",
+   "id": -7,
+   "lat": 51.50206,
+   "lon": -0.097925,
+   "tags": {
+    "highway": "street_lamp",
+    "note": "synthetic sample"
+   }
+  },
+  {
+   "type": "node",
+   "id": -8,
+   "lat": 51.50206,
+   "lon": -0.095199,
+   "tags": {
+    "highway": "street_lamp",
+    "note": "synthetic sample"
+   }
+  },
+  {
+   "type": "node",
+   "id": -9,
+   "lat": 51.50206,
+   "lon": -0.09249,
+   "tags": {
+    "highway": "street_lamp",
+    "note": "synthetic sample"
+   }
+  },
+  {
+   "type": "node",
+   "id": -10,
+   "lat": 51.50206,
+   "lon": -0.089777,
+   "tags": {
+    "highway": "street_lamp",
+    "note": "synthetic sample"
+   }
+  },
+  {
+   "type": "node",
+   "id": -11,
+   "lat": 51.50206,
+   "lon": -0.087132,
+   "tags": {
+    "highway": "street_lamp",
+    "note": "synthetic sample"
+   }
+  },
+  {
+   "type": "node",
+   "id": -12,
+   "lat": 51.5003,
+   "lon": -0.097,
+   "tags": {
+    "amenity": "pharmacy",
+    "name": "Synthetic Pharmacy (sample)",
+    "note": "synthetic sample"
+   }
+  },
+  {
+   "type": "node",
+   "id": -13,
+   "lat": 51.50045,
+   "lon": -0.093,
+   "tags": {
+    "amenity": "clinic",
+    "name": "Synthetic Clinic (sample)",
+    "note": "synthetic sample"
+   }
+  },
+  {
+   "type": "node",
+   "id": -14,
+   "lat": 51.50028,
+   "lon": -0.088,
+   "tags": {
+    "amenity": "police",
+    "name": "Synthetic Police Post (sample)",
+    "note": "synthetic sample"
+   }
+  },
+  {
+   "type": "node",
+   "id": -15,
+   "lat": 51.4996,
+   "lon": -0.099,
+   "tags": {
+    "amenity": "hospital",
+    "name": "Synthetic Hospital (sample)",
+    "note": "synthetic sample"
+   }
+  },
+  {
+   "type": "node",
+   "id": -16,
+   "lat": 51.49965,
+   "lon": -0.086,
+   "tags": {
+    "amenity": "fire_station",
+    "name": "Synthetic Fire Station (sample)",
+    "note": "synthetic sample"
+   }
+  },
+  {
+   "type": "node",
+   "id": -17,
+   "lat": 51.500308,
+   "lon": -0.098,
+   "tags": {
+    "amenity": "cafe",
+    "name": "Synthetic Cafe (sample)",
+    "note": "synthetic sample"
+   }
+  },
+  {
+   "type": "node",
+   "id": -18,
+   "lat": 51.500295,
+   "lon": -0.0958,
+   "tags": {
+    "amenity": "restaurant",
+    "name": "Synthetic Restaurant (sample)",
+    "note": "synthetic sample"
+   }
+  },
+  {
+   "type": "node",
+   "id": -19,
+   "lat": 51.500339,
+   "lon": -0.0936,
+   "tags": {
+    "amenity": "cafe",
+    "name": "Synthetic Tea Stall (sample)",
+    "note": "synthetic sample"
+   }
+  },
+  {
+   "type": "node",
+   "id": -20,
+   "lat": 51.500332,
+   "lon": -0.0914,
+   "tags": {
+    "amenity": "bank",
+    "name": "Synthetic Bank Branch (sample)",
+    "note": "synthetic sample"
+   }
+  },
+  {
+   "type": "node",
+   "id": -21,
+   "lat": 51.500293,
+   "lon": -0.0892,
+   "tags": {
+    "amenity": "school",
+    "name": "Synthetic School (sample)",
+    "note": "synthetic sample"
+   }
+  },
+  {
+   "type": "node",
+   "id": -22,
+   "lat": 51.50038,
+   "lon": -0.0905,
+   "tags": {
+    "shop": "convenience",
+    "name": "Synthetic Corner Shop (sample)",
+    "note": "synthetic sample"
+   }
+  }
+ ]
+}

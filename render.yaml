@@ -1,0 +1,31 @@
+# Render blueprint for the API (the website goes to Vercel, see README.md). Not run from the build sandbox:
+# check it in Render's "New > Blueprint" screen before relying on it.
+#
+# The free web service has no permanent disk, so do NOT leave DATABASE_URL on SQLite: every restart would
+# erase the reports. Use a Postgres connection string (for example Supabase), and uncomment psycopg in
+# backend/requirements.txt.
+services:
+  - type: web
+    name: pathlens-api
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: DATABASE_URL        # postgresql+psycopg://...
+        sync: false
+      - key: ADMIN_TOKEN         # long random string, or leave sign-in to Supabase and remove this
+        sync: false
+      - key: CORS_ORIGINS        # your Vercel address, e.g. https://pathlens.vercel.app
+        sync: false
+      - key: HTTP_USER_AGENT     # public OSM services need a contact address in it
+        sync: false
+      - key: PRIVACY_SALT
+        generateValue: true
+      - key: TRUST_PROXY
+        value: "1"
+      - key: SUPABASE_URL        # optional: turns on sign-in
+        sync: false
+      - key: ORS_API_KEY         # optional: better walking routes
+        sync: false

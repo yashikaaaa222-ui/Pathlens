@@ -1,0 +1,6 @@
+# Real report data is personal data. Keep exports, photos and field notes out of version control.
+# Only this folder's README, the empty template and this file are committed.
+*
+!.gitignore
+!README.md
+!field_audit_template.csv

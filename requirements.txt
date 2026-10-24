@@ -1,0 +1,17 @@
+# One virtual environment for everything at the top of the repository:
+#   python -m venv .venv && source .venv/bin/activate
+#   pip install -r requirements.txt
+#
+# The API (and its tests):
+-r backend/requirements-dev.txt
+
+# The notebook (notebooks/data_exploration.ipynb):
+pandas>=2.2
+matplotlib>=3.8
+nbformat>=5.9
+nbconvert>=7.16
+ipykernel>=6.29
+jupyterlab>=4.2          # to open it:  jupyter lab notebooks/
+
+# The browser tests (tests/e2e). After installing, run once:  python -m playwright install chromium
+playwright>=1.45
